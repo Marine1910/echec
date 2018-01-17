@@ -22,19 +22,11 @@ public class PanelMenu extends JPanel {
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Marine CHAUVET
+        // Generated using JFormDesigner non-commercial license
         btnJouer = new JButton();
         titre = new JLabel();
 
         //======== this ========
-
-        // JFormDesigner evaluation mark
-        setBorder(new javax.swing.border.CompoundBorder(
-            new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
-                "JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
-                javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
-                java.awt.Color.red), getBorder())); addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
-
 
         //---- btnJouer ----
         btnJouer.setText("Jouer !");
@@ -48,9 +40,9 @@ public class PanelMenu extends JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup()
                 .addGroup(layout.createSequentialGroup()
-                    .addContainerGap(160, Short.MAX_VALUE)
+                    .addContainerGap(157, Short.MAX_VALUE)
                     .addComponent(titre)
-                    .addContainerGap(161, Short.MAX_VALUE))
+                    .addContainerGap(158, Short.MAX_VALUE))
                 .addGroup(layout.createSequentialGroup()
                     .addGap(134, 134, 134)
                     .addComponent(btnJouer, GroupLayout.PREFERRED_SIZE, 129, GroupLayout.PREFERRED_SIZE)
@@ -61,15 +53,15 @@ public class PanelMenu extends JPanel {
                 .addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                     .addContainerGap(94, Short.MAX_VALUE)
                     .addComponent(titre)
-                    .addGap(45, 45, 45)
+                    .addGap(46, 46, 46)
                     .addComponent(btnJouer, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
-                    .addGap(78, 78, 78))
+                    .addGap(77, 77, 77))
         );
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Marine CHAUVET
+    // Generated using JFormDesigner non-commercial license
     private JButton btnJouer;
     private JLabel titre;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
