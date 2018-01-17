@@ -1,5 +1,5 @@
 /*
- * Created by JFormDesigner on Wed Jan 17 12:03:06 CET 2018
+ * Created by JFormDesigner on Wed Jan 17 12:30:58 CET 2018
  */
 
 package ui.panel;
@@ -8,7 +8,7 @@ import javax.swing.*;
 import javax.swing.GroupLayout;
 
 /**
- * @author Marine CHAUVET
+ * @author Greg Daure
  */
 public class PanelGeneral extends JPanel {
     public PanelGeneral() {
@@ -16,6 +16,9 @@ public class PanelGeneral extends JPanel {
     }
 
     private void initComponents() {
+        // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+        // Generated using JFormDesigner non-commercial license
+
         //======== this ========
 
         GroupLayout layout = new GroupLayout(this);
@@ -32,4 +35,6 @@ public class PanelGeneral extends JPanel {
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+    // Generated using JFormDesigner non-commercial license
+    // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

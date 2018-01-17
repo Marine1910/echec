@@ -1,5 +1,5 @@
 /*
- * Created by JFormDesigner on Wed Jan 17 11:41:54 CET 2018
+ * Created by JFormDesigner on Wed Jan 17 12:30:38 CET 2018
  */
 
 package ui.panel;
@@ -9,7 +9,7 @@ import javax.swing.*;
 import javax.swing.GroupLayout;
 
 /**
- * @author unknown
+ * @author Greg Daure
  */
 public class PanelMenu extends JPanel {
     public PanelMenu() {

@@ -1,5 +1,5 @@
 /*
- * Created by JFormDesigner on Wed Jan 17 11:57:19 CET 2018
+ * Created by JFormDesigner on Wed Jan 17 12:30:50 CET 2018
  */
 
 package ui.panel;
@@ -7,9 +7,10 @@ package ui.panel;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.GroupLayout;
+import javax.swing.LayoutStyle;
 
 /**
- * @author Marine CHAUVET
+ * @author Greg Daure
  */
 public class PanelJoueur extends JPanel {
     public PanelJoueur() {
@@ -22,7 +23,7 @@ public class PanelJoueur extends JPanel {
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Marine CHAUVET
+        // Generated using JFormDesigner non-commercial license
         txt_joueur1 = new JLabel();
         txt_joueur2 = new JLabel();
         txf_joueur1 = new JTextField();
@@ -30,14 +31,6 @@ public class PanelJoueur extends JPanel {
         btn_lancer_partie = new JButton();
 
         //======== this ========
-
-        // JFormDesigner evaluation mark
-        setBorder(new javax.swing.border.CompoundBorder(
-            new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
-                "JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
-                javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
-                java.awt.Color.red), getBorder())); addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
-
 
         //---- txt_joueur1 ----
         txt_joueur1.setText("Nom joueur 1 ");
@@ -82,7 +75,7 @@ public class PanelJoueur extends JPanel {
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Marine CHAUVET
+    // Generated using JFormDesigner non-commercial license
     private JLabel txt_joueur1;
     private JLabel txt_joueur2;
     private JTextField txf_joueur1;
