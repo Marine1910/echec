@@ -1,23 +1,23 @@
 /*
- * Created by JFormDesigner on Wed Jan 17 11:41:54 CET 2018
+ * Created by JFormDesigner on Wed Jan 17 12:03:06 CET 2018
  */
 
-package fxml;
+package ui.panel;
 
 import javax.swing.*;
 import javax.swing.GroupLayout;
 
 /**
- * @author unknown
+ * @author Marine CHAUVET
  */
-public class Menu extends JPanel {
-    public Menu() {
+public class PanelGeneral extends JPanel {
+    public PanelGeneral() {
         initComponents();
     }
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - unknown
+        // Generated using JFormDesigner Evaluation license - Marine CHAUVET
 
         //======== this ========
 
@@ -43,6 +43,6 @@ public class Menu extends JPanel {
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - unknown
+    // Generated using JFormDesigner Evaluation license - Marine CHAUVET
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

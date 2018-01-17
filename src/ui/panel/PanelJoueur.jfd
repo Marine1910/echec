@@ -1,0 +1,35 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:56:p, par l {comp txf_joueur2:::p:111:p, comp txt_joueur2:::p::p, comp txt_joueur1:::p::p, comp txf_joueur1::l:p:111:p, comp btn_lancer_partie::l:p:192:p}, space ::152:x}}"
+			"$verticalGroup": "par l {seq l {space :p:69:p, comp txt_joueur1:::p::p, space u:::p, comp txf_joueur1:::p::p, space s:::p, comp txt_joueur2:::p::p, space u:::p, comp txf_joueur2:::p::p, space s:::p, comp btn_lancer_partie:::p:48:p, space ::39:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "txt_joueur1"
+				"text": "Nom joueur 1 "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "txt_joueur2"
+				"text": "Nom joueur 2"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txf_joueur1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txf_joueur2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn_lancer_partie"
+				"text": "Commencer une partie "
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn_lancer_partieActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
